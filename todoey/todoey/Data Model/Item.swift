@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Item {
+class Item: Codable {
     //MARK - Todo list items
     
     var title: String = ""
